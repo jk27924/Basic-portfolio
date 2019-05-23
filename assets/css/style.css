@@ -1,0 +1,79 @@
+body {
+    font-family: 'Georgia' Times, 'Times New Roman', serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #777777;
+    margin: 0 auto;
+}
+
+.top-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.border-right {
+    border-right: 1px #666666 solid;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    color: #fff;
+
+}
+
+.nameplate {
+    float: left;
+    width: 250px;
+    padding: 30px;
+    font-family: 'Georgia' Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+nav {
+    float: right;
+    margin-top: 25px;
+}
+
+
+/* any anchor tag within nav */
+nav a {
+    text-decoration: none;
+    color: #666666;
+    padding: 3px;
+    height: 5px;
+}
+
+/* main */
+
+.main-section {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#main-container {
+    background-image: url('../images/Subtle-Light-Tile-Pattern-Vol2.png');
+    background-repeat: repeat;
+    width: 100%;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    background: #666666;
+    height: 50px;
+}
+
+.clear::after {
+    content: "";
+    clear: both;
+    display: table;
+}
