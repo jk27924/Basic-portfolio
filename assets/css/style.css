@@ -145,3 +145,7 @@ footer {
     margin-bottom: 255px;
     border: 1px solid #ddd;   
 }
+
+a:link {
+    text-decoration: none;
+}
