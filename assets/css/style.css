@@ -79,9 +79,6 @@ p {
     margin-bottom: 20px;
 }
 
-
-
-
 h1 {
     color: #4aaaa5;
     font-family: 'Georgia' Times, 'Times New Roman', serif;
@@ -112,11 +109,11 @@ footer {
 }
 
 
+
 /* Portfolio Page */
 
 .work {
     float: left;
-    overflow: auto;
 }
 
 .work img {
@@ -136,4 +133,15 @@ footer {
     height: 30px;
     position: absolute; 
     padding: 15px 0px 0px 0px;
+}
+
+.main-section2 {
+    width: 900px;
+    height: 880px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    margin-top: 35px;
+    margin-bottom: 255px;
+    border: 1px solid #ddd;   
 }
