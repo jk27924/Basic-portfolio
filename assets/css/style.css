@@ -166,8 +166,11 @@ a:link {
     border: 1px solid #ddd;   
 }
 
+
+
 textarea {
     height: 200px;
+    margin-bottom: 5px;
 }
 
 input[type=text],
@@ -175,4 +178,31 @@ input[type=email],
 label,
 textarea {
     width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+input[type=text],
+input[type=email] {
+    height: 30px;
+    margin-bottom: 8px;
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    font-size: 18px;
+    color: #fff;
+    width: 110px;
+    height: 40px;
+    cursor: pointer;
+}
+
+label {
+    font-size: 18px;
 }
