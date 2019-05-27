@@ -165,3 +165,14 @@ a:link {
     margin-bottom: 255px;
     border: 1px solid #ddd;   
 }
+
+textarea {
+    height: 200px;
+}
+
+input[type=text],
+input[type=email],
+label,
+textarea {
+    width: 100%;
+}
