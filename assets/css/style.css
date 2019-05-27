@@ -150,3 +150,18 @@ a:link {
     text-decoration: none;
     color: #fff;
 }
+
+
+
+/* Contact Page */
+
+.main-section3 {
+    width: 900px;
+    height: 545px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    margin-top: 35px;
+    margin-bottom: 255px;
+    border: 1px solid #ddd;   
+}
