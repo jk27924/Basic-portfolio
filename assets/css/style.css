@@ -114,6 +114,7 @@ footer {
 
 .work {
     float: left;
+    position: relative;
 }
 
 .work img {
@@ -130,9 +131,10 @@ footer {
     line-height: 15px;
     font-weight: 300;
     width: 270px;
-    height: 30px;
-    position: absolute; 
-    padding: 15px 0px 0px 0px;
+    height: 37px;
+    position: absolute;
+    top: 135px;
+    padding: 23px 0px 0px 0px;
 }
 
 .main-section2 {
